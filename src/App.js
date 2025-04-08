@@ -3,7 +3,9 @@ import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import { FiSearch } from 'react-icons/fi';
 
 function logLoginToSheet(username) {
-  fetch('https://script.google.com/macros/s/AKfycbxpeQEome2yuwVIigU6cqUCuLeM2iKkZz27nulIdNOt7TbNd0WQiuxnHEAdvJylKL_obQ/exec', {
+  const webhookUrl = process.env.REACT_APP_SHEETS_WEBHOOK_URL;
+
+  fetch(webhookUrl, {
     method: 'POST',
     mode: 'no-cors',
     headers: {
@@ -14,7 +16,6 @@ function logLoginToSheet(username) {
     }),
   });
 }
-
 function App() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-100 font-montserrat">
