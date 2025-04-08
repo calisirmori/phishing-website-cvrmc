@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/phishing-website-cvrmc/static/css/main.a068304a.css",
+    "main.js": "/phishing-website-cvrmc/static/js/main.65d2ca79.js",
+    "service-worker.js": "/phishing-website-cvrmc/service-worker.js",
+    "index.html": "/phishing-website-cvrmc/index.html",
+    "main.a068304a.css.map": "/phishing-website-cvrmc/static/css/main.a068304a.css.map",
+    "main.65d2ca79.js.map": "/phishing-website-cvrmc/static/js/main.65d2ca79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a068304a.css",
+    "static/js/main.65d2ca79.js"
+  ]
+}
